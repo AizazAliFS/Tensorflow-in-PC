@@ -1,16 +1,16 @@
 
-#Tensorflow Installation Guidance For PC
+# Tensorflow Installation Guidance For PC
 
-#Manual Python Setup
+# Manual Python Setup
 •	Instructor: Aizaz Ali, Youtube Channel:  FutureScope
 •	For more information visit youtube channel: https://www.youtube.com/c/FutureScope/.
 
-#Software Installation
+# Software Installation
 This class is technically oriented. A successful student needs to be able to compile and execute Python code that makes use of TensorFlow for deep learning. There are two options for you to accomplish this:
 •	Install Python, TensorFlow and some IDE (Jupyter, TensorFlow, and others)
 •	Use Google CoLab in the cloud
 
-#Installing Python and TensorFlow
+# Installing Python and TensorFlow
 First step is download python and install it but I prefer download Anaconda or Miniconda. Miniconda is the minimal set of features from the extensive Anaconda.
 I prefer to download Anacodna from the official link here.. 
 URL: https://repo.anaconda.com/archive/Anaconda3-2021.05-Windows-x86_64.exe or https://www.anaconda.com/products/individual
@@ -24,26 +24,26 @@ We will now install TensorFlow. We will make use of conda for this installation.
 
 How to install TensorFlow for either a CPU or GPU. To use GPU, you must have a compatible NVIDIA GPU.
 
-#Install TensorFlow for CPU Only
+# Install TensorFlow for CPU Only
 The following command installs TensorFlow for CPU support. Even if you have a GPU, it will not be used.
 conda install -c anaconda tensorflow
 
-#Install TensorFlow for GPU and CPU
+# Install TensorFlow for GPU and CPU
 The following command installs TensorFlow for GPU support. All of the complex driver installations should be handled by this command.
 conda install -c anaconda tensorflow-gpu
 
-#Install Additional Libraries for ML
+# Install Additional Libraries for ML
 There are several additional libraries that you will need for this course. This command will install them. Make sure you are still in your tensorflow environment.
 conda env update --file tools.yml
 
 The tools.yml file is located in the root directory for this GitHub repository.
 
-#Register your Environment
+# Register your Environment
 The following command registers your tensorflow environment. Again, make sure you "conda activate" your new tensorflow environment.
 
 python -m ipykernel install --user --name tensorflow --display-name "Python 3.8 (tensorflow)"
 
-#Testing your Environment
+# Testing your Environment
 You can now start Jupyter notebook. Use the following command.
 jupyter notebook
 You can now run the following code to check that you have the versions expected.
