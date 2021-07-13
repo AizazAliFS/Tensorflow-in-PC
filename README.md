@@ -5,7 +5,7 @@
 •	Instructor: Aizaz Ali, Youtube Channel:  FutureScope
 •	For more information visit youtube channel: https://www.youtube.com/c/FutureScope/.
 
-# Software Installation
+## Software Installation
 This class is technically oriented. A successful student needs to be able to compile and execute Python code that makes use of TensorFlow for deep learning. There are two options for you to accomplish this:
 •	Install Python, TensorFlow and some IDE (Jupyter, TensorFlow, and others)
 •	Use Google CoLab in the cloud
