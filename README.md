@@ -1,7 +1,7 @@
 
 # Tensorflow Installation Guidance For PC
 
-# Manual Python Setup
+## Manual Python Setup
 •	Instructor: Aizaz Ali, Youtube Channel:  FutureScope
 •	For more information visit youtube channel: https://www.youtube.com/c/FutureScope/.
 
