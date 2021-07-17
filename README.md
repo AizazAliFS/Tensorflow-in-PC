@@ -50,3 +50,43 @@ jupyter notebook
 
 You can now run the following code to check that you have the versions expected.
 
+# What version of Python do you have?
+
+*import sys*
+
+*import tensorflow.keras*
+
+*import pandas as pd*
+
+*import sklearn as sk*
+
+*import tensorflow as tf*
+
+print(f"Tensor Flow Version: {tf.__version__}")
+
+print(f"Keras Version: {tensorflow.keras.__version__}")
+
+print(f"Python {sys.version}")
+
+print(f"Pandas {pd.__version__}")
+
+print(f"Scikit-Learn {sk.__version__}")
+
+gpu = len(tf.config.list_physical_devices('GPU'))>0
+
+print("GPU is", "available" if gpu else "NOT AVAILABLE")
+------------------------------------------------------------------------
+
+Tensor Flow Version: 2.1.0
+
+Keras Version: 2.2.4-tf
+
+Python 3.7.7 (default, May  6 2020, 11:45:54) [MSC v.1916 64 bit (AMD64)]
+
+Pandas 1.0.5
+
+Scikit-Learn 0.23.1
+
+GPU Not  available
+
+
